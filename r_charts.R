@@ -19,9 +19,10 @@ plot(Sepal.Length ~ Petal.Length, data=iris)
 
 
 ##Barplot
-jdjdjds
+lkjdfljasd
 
 ##Histogram
+akdjlsajd
 
 ##Pie
 
