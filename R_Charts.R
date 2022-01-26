@@ -1,5 +1,6 @@
 ###############################################################################
 #Charts
+
 ##Boxplot
 help("boxplot")
 ### By data
@@ -10,6 +11,8 @@ boxplot(Sepal.Length ~ Petal.Length,iris)
 ### Quartile --> Use range
 boxplot(iris, range = 1)
 
+
+
 ##Plot
 help("plot")
 ### By data
@@ -18,20 +21,28 @@ plot(iris)
 plot(Sepal.Length ~ Petal.Length, data=iris)
 
 
+
 ##Barplot
-lkjdfljasd
+iristable <- table(iris$Species)
+iristable
+
+barplot(iristable,iristable)
+
+
 
 ##Histogram
-akdjlsajd
+### By formula
+hist(iris$Sepal.Length, breaks=5)
+
+
 
 ##Pie
+iristable <- table(iris$Species)
+iristable
+
+pie(iristable,labels = names(iristable))
+
+
 
 ##Save a chart
-
-##Ggplot
-
-##Maps
-
-##Highcharter
-
 
