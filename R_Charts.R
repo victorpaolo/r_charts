@@ -45,4 +45,11 @@ pie(iristable,labels = names(iristable))
 
 
 ##Save a chart
+###Set  the path where you want to save it
+####Note : replace from \ to /
 
+setwd("C:/Users/vprea/OneDrive/Documentos/R")
+
+###format to be saves
+jpeg(filename = "test.jpeg")
+pdf(file = "test_pdf.pdf")
